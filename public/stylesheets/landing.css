@@ -88,10 +88,7 @@ h3 {
   #poster_box h3 {
     font-size: 80%;
   }
-  #hero {
-    background: linear-gradient(to right, black, rgb(206, 171, 106));
-    background-size: cover;
-  }
+
   #poster_box {
     min-width: 100vw;
     /* min-height: auto; */
@@ -107,5 +104,9 @@ h3 {
   #poster_box h3,
   h1 {
     text-align: center;
+  }
+  #hero {
+    background: linear-gradient(to right, black, rgb(206, 171, 106));
+    background-size: cover;
   }
 }
