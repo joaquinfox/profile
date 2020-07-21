@@ -89,8 +89,8 @@ h3 {
     font-size: 80%;
   }
   #hero {
-    /* background: linear-gradient(to right, black, rgb(206, 171, 106));
-    background-size: cover; */
+    background: linear-gradient(to right, black, rgb(206, 171, 106));
+    background-size: cover;
   }
   #poster_box {
     min-width: 100vw;
