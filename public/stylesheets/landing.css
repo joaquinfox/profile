@@ -90,8 +90,8 @@ h3 {
     font-size: 80%;
   }
   #hero {
-    /* background-image: url('../images/denes-kozma-IAkqIgTYkHI-unsplash-mini.webp');
-    background-image: linear-gradient(to right,black, rgb(206, 171, 106)); */
+    background: url('../images/denes-kozma-IAkqIgTYkHI-unsplash-mini.webp')
+      linear-gradient(to right, black, rgb(206, 171, 106));
     background-size: cover;
   }
   #poster_box {
