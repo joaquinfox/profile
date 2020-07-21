@@ -91,6 +91,16 @@ h3 {
   #hero {
     background-image: url('../images/denes-kozma-IAkqIgTYkHI-unsplash-mini.webp');
   }
+  #poster_box {
+    min-width: 100vw;
+    /* min-height: auto; */
+  }
+  #nav {
+    padding: 0 10%;
+  }
+  .nav-item {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 700px) {
   #poster_box h3,
