@@ -23,7 +23,7 @@ h3 {
   display: flex;
 }
 
-#poster_box {
+#posterBox {
   display: flex;
   flex-direction: column;
   color: rgb(209, 231, 229);
@@ -51,7 +51,6 @@ h3 {
   text-align: center;
   margin: auto;
   padding: 1%;
-  /* flex:1 */
 }
 
 .social-anchors {
@@ -89,9 +88,10 @@ h3 {
     font-size: 80%;
   }
 
-  #poster_box {
+  #posterBox {
     min-width: 100vw;
-    /* min-height: auto; */
+    border-radius: 0%;
+    box-shadow: none;
   }
   #nav {
     padding: 0 10%;
