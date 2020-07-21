@@ -17,8 +17,7 @@ h3 {
   top: 0;
   left: 0;
   margin: 0;
-  background: url('../images/denes-kozma-IAkqIgTYkHI-unsplash-mini.webp');
-  /* linear-gradient(black,white); */
+  background: url('../images/denes-kozma-IAkqIgTYkHI-unsplash.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   display: flex;
@@ -90,8 +89,8 @@ h3 {
     font-size: 80%;
   }
   #hero {
-    background: linear-gradient(to right, black, rgb(206, 171, 106));
-    background-size: cover;
+    /* background: linear-gradient(to right, black, rgb(206, 171, 106));
+    background-size: cover; */
   }
   #poster_box {
     min-width: 100vw;
