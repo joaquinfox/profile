@@ -74,7 +74,7 @@ h3 {
   letter-spacing: 0.5rem;
   transition: all 0.55s ease;
   font-size: 2rem;
-  padding: 5%;
+  padding: 5% 2%;
 }
 
 .nav-item:hover {
