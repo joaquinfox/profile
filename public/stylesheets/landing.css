@@ -1,13 +1,14 @@
 * {
   margin: 0;
   box-sizing: border-box;
-}
-body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
-h* {
+
+h1,
+h3 {
   font-family: 'Do Hyeon', sans-serif;
+  margin: auto;
 }
 #hero {
   position: fixed;
@@ -18,119 +19,80 @@ h* {
   margin: 0;
   background-image: url('../images/denes-kozma-IAkqIgTYkHI-unsplash.jpg');
   background-size: cover;
+  display: flex;
 }
-#hero_container {
-  margin: auto;
-  max-width: 30%;
-}
+
 #poster_box {
   display: flex;
   flex-direction: column;
   color: rgb(209, 231, 229);
-  margin-top: 30%;
-  padding-bottom: 5%;
+  margin: 10% auto;
   background-color: rgba(0, 3, 3, 0.5);
   border-radius: 5%;
   box-shadow: 0.5rem 0.25rem rgba(0, 0, 0, 0.7);
+  height: 50vh;
+  max-width: 40%;
 }
-#poster_box h1 {
-  text-align: center;
-  padding-top: 7%;
+h1,
+h3 {
+  /* padding: 0 5%; */
   font-family: 'Do Hyeon', sans-serif;
   font-weight: 100;
   letter-spacing: 0.3rem;
+  margin: auto;
 }
-#poster_box h4 {
-  text-align: center;
-  padding: 5% 0%;
-  font-size: 1.5rem;
-  font-weight: 100;
-  letter-spacing: 0.2rem;
-}
-
-.hero_flex_row {
+#hero_flex {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  align-content: space-around;
 }
-.poster_box_section {
-  font-size: 2rem;
-  letter-spacing: 0.35rem;
-  padding: 5%;
-  margin: 2%;
-}
-
-.poster_box_section a {
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  color: white;
-  transition: all 0.55s ease;
-
-}
-.poster_box_section a:hover {
-  color: rgb(231, 231, 61);
-  background-color: rgba(0, 3, 3, 0.1);
-  border-radius: 20;
-}
-
-.page-container {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
-}
-/*social SYLES*/
-.social {
-  border-bottom: 3px solid #eee;
-}
-#social-subtitle {
-  /* color: rgb(221, 166, 16); */
-  font-style: italic;
-  padding: 1%;
-}
+/*SOCIAL STYLES*/
 .social-content {
   text-align: center;
-  padding-top: 1%;
-}
-.anchor-container {
+  margin: auto;
   padding: 1%;
+  /* flex:1 */
 }
+
 .social-anchors {
-  padding: 2rem;
+  padding: 0 2rem;
   color: rgb(226, 172, 25);
   transition: all 0.25s ease;
 }
 .social-anchors:hover {
   color: rgb(221, 210, 189);
 }
+#nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+.nav-item {
+  margin: auto;
+  color: rgb(209, 231, 229);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  transition: all 0.55s ease;
+  font-size: 2rem;
+  padding: 5%;
+}
 
-/* @media (max-width: 800px) {
-  .social-content {
-    display: flex;
-    flex-direction: column;
-  } */
-  /* .inner-wrapper {
-    display: flex;
-    flex-direction: column;
-    background: whitesmoke;
-  } */
-  /* .article-ul-container {
-    display: flex;
-    flex-direction: column;
-  } */
-  /* .techstack-item {
-    margin: 3%;
-  } */
-  /* .social-img {
-    display: none;
+.nav-item:hover {
+  color: rgb(231, 231, 61);
+  background-color: rgba(0, 3, 3, 0.1);
+  border-radius: 20;
+}
+
+@media screen and (max-width: 1000px) {
+  #poster_box h3 {
+    font-size: 60%;
   }
-} */
-/* @media (max-width: 600px) {
-  .profile-img {
-    content: url('./profile_pic3.JPG');
-    transform: rotate(1800deg);
+}
+@media screen and (max-width: 700px) {
+  #poster_box h3,
+  h1 {
+    text-align: center;
+    /* font-size: 60%; */
   }
-  * {
-    font-family: sans-serif;
-  }
-} */
+}
