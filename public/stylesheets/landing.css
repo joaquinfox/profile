@@ -17,7 +17,7 @@ h3 {
   top: 0;
   left: 0;
   margin: 0;
-  background-image: url('../images/denes-kozma-IAkqIgTYkHI-unsplash.jpg');
+  background-image: url('../images/denes-kozma-IAkqIgTYkHI-unsplash.webp');
   background-size: cover;
   display: flex;
 }
@@ -35,7 +35,6 @@ h3 {
 }
 h1,
 h3 {
-  /* padding: 0 5%; */
   font-family: 'Do Hyeon', sans-serif;
   font-weight: 100;
   letter-spacing: 0.3rem;
@@ -93,6 +92,5 @@ h3 {
   #poster_box h3,
   h1 {
     text-align: center;
-    /* font-size: 60%; */
   }
 }
