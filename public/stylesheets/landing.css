@@ -86,7 +86,7 @@ h3 {
 
 @media screen and (max-width: 1000px) {
   #poster_box h3 {
-    font-size: 60%;
+    font-size: 80%;
   }
   #hero {
     background-image: url('../images/denes-kozma-IAkqIgTYkHI-unsplash-mini.webp');
