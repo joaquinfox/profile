@@ -27,7 +27,7 @@ h3 {
   display: flex;
   flex-direction: column;
   color: rgb(209, 231, 229);
-  margin: 10% auto;
+  margin: auto;
   background-color: rgba(0, 3, 3, 0.5);
   border-radius: 5%;
   box-shadow: 0.5rem 0.25rem rgba(0, 0, 0, 0.7);
@@ -63,8 +63,7 @@ h3 {
 }
 #nav {
   display: flex;
-  flex-flow: row wrap;
-  align-content: space-around;
+  flex-flow: wrap;
 }
 .nav-item {
   margin: auto;
@@ -73,8 +72,8 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   transition: all 0.55s ease;
-  font-size: 2rem;
-  padding: 5% 2%;
+  font-size: auto;
+  padding: 3%;
 }
 
 .nav-item:hover {
@@ -84,29 +83,36 @@ h3 {
 }
 
 @media screen and (max-width: 1000px) {
-  #poster_box h3 {
-    font-size: 80%;
+  #posterBox h3 {
+    font-size: auto;
   }
 
   #posterBox {
     min-width: 100vw;
+    height:auto;
     border-radius: 0%;
     box-shadow: none;
   }
   #nav {
-    padding: 0 10%;
+    padding: auto;
   }
   .nav-item {
-    font-size: 1.5rem;
+    font-size: auto;
   }
 }
 @media screen and (max-width: 700px) {
-  #poster_box h3,
+  #posterBox {
+    font-size: auto;
+  }
+  #posterBox h3,
   h1 {
     text-align: center;
   }
   #hero {
     background: linear-gradient(to right, black, rgb(206, 171, 106));
     background-size: cover;
+  }
+  #nav {
+    padding: 0;
   }
 }
