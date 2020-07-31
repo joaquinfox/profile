@@ -18,6 +18,8 @@ h3 {
   left: 0;
   margin: 0;
   background: url('../images/denes-kozma-IAkqIgTYkHI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
 }
 
@@ -85,11 +87,10 @@ h3 {
     height: auto;
     border-radius: 0%;
     box-shadow: none;
-    padding:2%
+    padding: 2%;
   }
 }
 @media screen and (max-width: 700px) {
-
   #posterBox h3,
   h1 {
     text-align: center;
