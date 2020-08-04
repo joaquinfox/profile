@@ -28,6 +28,7 @@
   box-shadow: 0.5rem 0.25rem rgba(0, 0, 0, 0.7);
   height: 50vh;
   max-width: 40%;
+  padding: 1%;
 }
 h1,
 h3 {
