@@ -105,3 +105,12 @@ h3 {
     font-size: 70%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  #posterBox {
+    font-size: 70%;
+  }
+  h1 {
+    /* font-size: 50%; */
+  }
+}
